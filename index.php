@@ -13,15 +13,10 @@ public $modelo;
 //método público para simular a ação de dirigir
 public function dirigir(){ 
     //Imprimindo uma mensagem que inclui a marca e o modelo do carro
-echo "Dirigindo o $this -> marca $this-> modelo";
+echo "Dirigindo o $this->marca $this->modelo";
 
 }
 
-
-
-
-
-   
 }
 //Criando uma nova instância de classe Carro
 $meuCarro = new Carro();
